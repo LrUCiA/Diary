@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Diary
 //
-//  Created by 장명근 on 2021/12/14.
+//  Created by LrUCiA.
 //
 
 import UIKit
