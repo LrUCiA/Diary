@@ -7,5 +7,6 @@ Description
 <!--구분-->
 Screenshot 
 ---
-<img width="250" alt="![Simulator Screen Shot - iPhone 13 Pro Max - 2021-12-19 at 22 33 16](https://user-images.githubusercontent.com/42035944/146676839-6fdabf8d-2200-43af-93de-0e92f96d3d40.png)">
+<img src="https://user-images.githubusercontent.com/42035944/146676991-84c2e9a8-bc94-4b22-bfa0-e03ed54351d9.png"  width="200">
+
 
