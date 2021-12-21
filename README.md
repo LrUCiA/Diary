@@ -7,6 +7,5 @@ Description
 <!--구분-->
 Screenshot 
 ---
-<img src="https://user-images.githubusercontent.com/42035944/146676991-84c2e9a8-bc94-4b22-bfa0-e03ed54351d9.png"  width="150">
-
+<img src="https://user-images.githubusercontent.com/42035944/146676991-84c2e9a8-bc94-4b22-bfa0-e03ed54351d9.png"  width="200">
 
