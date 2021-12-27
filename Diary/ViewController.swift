@@ -8,14 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
-    private var diaryList = [Diary]() 
+    private var diaryList = [Diary]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
     }
     
     private func configureCollectionView() {
@@ -30,14 +30,14 @@ class ViewController: UIViewController {
             writeDiaryViewController.delegate = self
         }
     }
-
+    
     private func dateToString(date: Date) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "YY년 MM월 dd일(EEEEE)"
         formatter.locale = Locale(identifier: "ko-KR")
         return formatter.string(from: date)
     }
-
+    
 }
 
 extension ViewController: UICollectionViewDataSource {
@@ -46,12 +46,12 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DiaryCell", for: indexPath) as? DiaryCell { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DiaryCell", for: indexPath) as? DiaryCell
+        { return UICollectionViewCell() }
         let diary = diaryList[indexPath.row]
         cell.titleLabel.text = diary.title
         cell.dateLabel.text = self.dateToString(date: diary.date)
-        
-        return
+        return cell
     }
 }
 
