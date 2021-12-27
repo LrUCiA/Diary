@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SWJ-yV-qiW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37.681159420289859" y="133.92857142857142"/>
+            <point key="canvasLocation" x="-4" y="132"/>
         </scene>
         <!--Diary Detail View Controller-->
         <scene sceneID="7s0-y6-eyy">
@@ -308,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UnQ-dx-fwP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="854" y="134"/>
+            <point key="canvasLocation" x="854" y="132"/>
         </scene>
         <!--일기 작성-->
         <scene sceneID="g4e-Dl-6Rb">
