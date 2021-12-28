@@ -2,7 +2,7 @@
 //  WriteDiaryViewController.swift
 //  Diary
 //
-//  Created by LrUCiA
+//  Created by LrUCiA.
 //
 
 import UIKit
