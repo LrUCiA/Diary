@@ -8,7 +8,7 @@
 import UIKit
 
 protocol WriteDiaryViewDelegate: AnyObject {
-  func didSelectReigster(diary: Diary)
+  func didSelectRegister(diary: Diary)
 }
 
 class WriteDiaryViewController: UIViewController {
@@ -49,7 +49,7 @@ class WriteDiaryViewController: UIViewController {
         self.titleTextField.addTarget(self, action: #selector(titleTextFieldDidChange(_:)), for: .editingChanged)
         self.dateTextField.addTarget(self, action: #selector(dateTextFieldDidChange(_:)), for: .editingChanged)
     }
-    @IBAction func tapConfirmButton(_ sender: Any) {
+    @IBAction func tapConfirmButton(_ sender: UIBarButtonItem) {
         guard let title = self.titleTextField.text else { return }
         guard let contents = self.contentsTextView.text else { return }
         guard let date = self.diaryDate else { return }
