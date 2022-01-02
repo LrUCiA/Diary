@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         guard let row = notification.userInfo?["indexPath.row"] as? Int else { return }
         self.diaryList[row] = diary
         self.diaryList = self.diaryList.sorted(by: {
-            $0.date.compare($1.date) = .orderedDescending
+            $0.date.compare($1.date) == .orderedDescending
         })
         self.collectionView.reloadData()
     }
@@ -135,5 +135,9 @@ extension ViewController: DiaryDetailViewDelegate {
     func didSelectDelete(IndexPath: IndexPath) {
         self.diaryList.remove(at: IndexPath.row)
         self.collectionView.deleteItems(at: [IndexPath])
+    }
+    
+    func didSelectStar(IndexPath: IndexPath, isStar: Bool) {
+        self.diaryList[IndexPath.row].isStar = isStar
     }
 }

@@ -69,35 +69,30 @@
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKH-OK-BnE">
-                                                    <rect key="frame" x="12" y="12" width="156" height="85"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iap-ws-jDy">
+                                                    <rect key="frame" x="69" y="75" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tli-8z-yaT">
-                                                    <rect key="frame" x="12" y="167" width="156" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHd-df-d1t">
+                                                    <rect key="frame" x="69" y="147" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="tli-8z-yaT" firstAttribute="top" secondItem="nKH-OK-BnE" secondAttribute="bottom" constant="12" id="BKc-cJ-E5q"/>
-                                            <constraint firstItem="tli-8z-yaT" firstAttribute="leading" secondItem="Qb8-Ht-TmC" secondAttribute="leading" constant="12" id="Ti1-PG-OqZ"/>
-                                            <constraint firstItem="nKH-OK-BnE" firstAttribute="leading" secondItem="Qb8-Ht-TmC" secondAttribute="leading" constant="12" id="V4s-tI-oaC"/>
-                                            <constraint firstAttribute="trailing" secondItem="nKH-OK-BnE" secondAttribute="trailing" constant="12" id="Wwu-2V-iDL"/>
-                                            <constraint firstAttribute="trailing" secondItem="tli-8z-yaT" secondAttribute="trailing" constant="12" id="d4P-vB-M4b"/>
-                                            <constraint firstItem="tli-8z-yaT" firstAttribute="top" secondItem="nKH-OK-BnE" secondAttribute="bottom" constant="70" id="gSs-j1-zua"/>
-                                            <constraint firstAttribute="bottom" secondItem="tli-8z-yaT" secondAttribute="bottom" constant="12" id="ljs-o2-A5Y"/>
-                                            <constraint firstItem="nKH-OK-BnE" firstAttribute="top" secondItem="Qb8-Ht-TmC" secondAttribute="top" constant="12" id="rwI-Ix-njN"/>
+                                            <constraint firstItem="dHd-df-d1t" firstAttribute="top" secondItem="iap-ws-jDy" secondAttribute="bottom" constant="12" id="59A-Jg-0bw"/>
+                                            <constraint firstItem="iap-ws-jDy" firstAttribute="top" secondItem="Qb8-Ht-TmC" secondAttribute="top" constant="12" id="Pcw-4J-tKv"/>
+                                            <constraint firstItem="iap-ws-jDy" firstAttribute="leading" secondItem="Qb8-Ht-TmC" secondAttribute="leading" constant="12" id="Sfn-D5-b0S"/>
+                                            <constraint firstAttribute="bottom" secondItem="dHd-df-d1t" secondAttribute="bottom" constant="12" id="TgM-Sj-dtU"/>
+                                            <constraint firstAttribute="trailing" secondItem="iap-ws-jDy" secondAttribute="trailing" constant="12" id="ZRi-TX-wPj"/>
+                                            <constraint firstAttribute="trailing" secondItem="dHd-df-d1t" secondAttribute="trailing" constant="12" id="pGP-Il-IZg"/>
+                                            <constraint firstItem="dHd-df-d1t" firstAttribute="leading" secondItem="Qb8-Ht-TmC" secondAttribute="leading" constant="12" id="uP9-hU-1tM"/>
                                         </constraints>
                                         <size key="customSize" width="180" height="200"/>
-                                        <connections>
-                                            <outlet property="dateLabel" destination="tli-8z-yaT" id="fDc-A9-LE6"/>
-                                            <outlet property="titleLabel" destination="nKH-OK-BnE" id="sQk-os-0nY"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
