@@ -97,7 +97,7 @@ extension ViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DiaryCell", for: indexPath) as? DiaryCell else { return UICollectionViewCell() }
-        let diary = diaryList[indexPath.row]
+        let diary = self.diaryList[indexPath.row]
         cell.titleLabel.text = diary.title
         cell.dateLabel.text = self.dateToString(date: diary.date)
         return cell
