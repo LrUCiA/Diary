@@ -3,7 +3,8 @@
 <!--구분-->
 Description
 ---
->**
+>*Ordered by lastest*
+>*Can use favorite diary feature*
 <!--구분-->
 Screenshot 
 ---
