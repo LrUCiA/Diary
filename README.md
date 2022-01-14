@@ -3,11 +3,12 @@
 <!--구분-->
 Description
 ---
->*Ordered by lastest*
->*Can use favorite diary feature*
+>*Ordered by lastest*  
+>*Can choose and manage your favorite diary*
 <!--구분-->
 Screenshot 
 ---
-<img src="https://user-images.githubusercontent.com/42035944/149149408-072d8fbf-5233-422b-99f7-3aa8552a45be.png"  width="200">
-<img src="https://user-images.githubusercontent.com/42035944/149149502-1fd5d256-28d3-4f92-b27a-b32bb09c92a7.png"  width="200">
+|  |   |
+|-------------------|-------------------|
+ | <img src="https://user-images.githubusercontent.com/42035944/149149408-072d8fbf-5233-422b-99f7-3aa8552a45be.png"  width="200">|  <img src="https://user-images.githubusercontent.com/42035944/149149502-1fd5d256-28d3-4f92-b27a-b32bb09c92a7.png"  width="200">|
 
