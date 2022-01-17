@@ -4,6 +4,7 @@
 Description
 ---
 >*Ordered by lastest*  
+>*Can preview your diary*  
 >*Can choose and manage your favorite diary*
 <!--구분-->
 Screenshot 
